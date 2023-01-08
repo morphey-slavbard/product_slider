@@ -1,180 +1,212 @@
-﻿@charset "utf-8";
-		*{
-			padding: 0;
-			margin: 0;
-			box-sizing: border-box;
-			font-family: 'Open Sans' , Arial, Helvetica, sans-serif;
-            color: #4b4d4d;
-		}
-		main{
-			width: 100%;
-			height: 840px;
-			margin: 10px auto;
-			position: relative;
-			padding: 6px 0;
-		}
-		
-		
-		
-		main header{
-			width: 98%;
-			height: 65px;
-			margin: 0 auto;
-			display: flex;
-			align-items: center;
-			padding: 22px;
-			justify-content: center;
-			
-		}
-		
-		section{
-			width: 98%;
-			height: 620px;
-			margin: auto;
-			display: flex;
-			align-items: center;
-			overflow-x: auto;
-		}
-		section::-webkit-scrollbar{
-			display: none;
-		}
-		section .product_list{
-			min-width: 32.5%; /*controlls how many cards are displayed on a screen*/
-			height: 92%;
-			background: whitesmoke;
-			margin:  0 22px  0 0;
-			border-radius: 22px;
-			position: relative;
-			left: 0;
-			transition: 0.6s;
+    @charset "utf-8";
 
-		}
-		picture{
-			width: 100%;
-			height: 72%;
-			padding-bottom: 22px;
-			display: flex;
-			overflow: hidden;
-			margin-bottom: 20px;
-		}
-		picture img{
-			width: 100%;
-		}
-        small{color: #556;}
-		.btn_1{
-			text-decoration: none;
-			padding: 8px 15px;
-		    font-size: 14px;
-		    margin: 6px 0 0 18px;
-		    display: inline-block;
-		    color: white;
-		}
-        .icon_image{
-            margin-left: 20px;
-            width: 50px;
-            height: auto;
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        color: #4b4d4d;
+    }
+
+    main {
+        width: 100%;
+        height: 840px;
+        margin: 10px auto;
+        position: relative;
+        padding: 6px 0;
+    }
+
+
+
+    main header {
+        width: 98%;
+        height: 65px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 22px;
+        justify-content: center;
+
+    }
+
+    section {
+        width: 99%;
+        height: 620px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+    }
+
+    section::-webkit-scrollbar {
+        display: none;
+    }
+
+    section .product_list {
+        min-width: 32.01%;
+        /*controlls how many cards are displayed on a screen*/
+        height: 92%;
+        background: whitesmoke;
+        margin: 0 22px 0 0;
+        border-radius: 22px;
+        position: relative;
+        left: 0;
+        transition: 0.6s;
+
+    }
+
+    picture {
+        width: 100%;
+        height: 72%;
+        padding-bottom: 22px;
+        display: flex;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    picture img {
+        width: 100%;
+    }
+
+    small {
+        color: #556;
+    }
+
+
+    .icon_image {
+        margin-left: 20px;
+        width: 50px;
+        height: auto;
+    }
+
+    .arrows_container {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .arrows {
+        padding-right: 30px;
+        cursor: pointer;
+    }
+
+    .arrows:hover {
+        color: grey;
+    }
+
+    .button_block {
+        margin-top: 15px !important;
+        padding-left: 0px !important;
+        display: flex;
+        justify-content: center !important;
+
+    }
+
+    .btn_1 {
+        align-items: center;
+        background-color: #000000;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: .25rem;
+        box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+        box-sizing: border-box;
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+        display: inline-flex;
+        font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        justify-content: center;
+        line-height: 20px;
+        margin: 0;
+        min-height: 3rem;
+        padding: 14px 18px 14px 18px;
+        position: relative;
+        text-decoration: none;
+        transition: all 250ms;
+        vertical-align: baseline;
+        width: auto;
+    }
+
+    .btn_1:hover,
+    .btn_1:focus {
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+        background-color: #1cb5fc;
+        color: white;
+    }
+
+    .btn_1:hover {
+        transform: translateY(-1px);
+    }
+
+    .btn_1:active {
+        background-color: #F0F0F1;
+        border-color: rgba(0, 0, 0, 0.15);
+        box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+        color: rgba(0, 0, 0, 0.65);
+        transform: translateY(0);
+    }
+
+    em {
+        font-size: 16px;
+        padding-top: 5px;
+
+    }
+
+    .info,
+    .button_block {
+        width: 92%;
+        margin: auto;
+        padding: 6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 55px;
+        font-size: 22px;
+        color: #444;
+    }
+
+    .info .info_container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+
+    @media (max-width: 750px) {
+        .text h1 {
+            font-size: 33px;
         }
-        .arrows_container {
-            display: flex;
-            justify-content: center;
-            font-size: 50px;
+
+        .text p {
+            width: 92%;
         }
-        .arrows{
-            padding-right: 30px;
-            cursor: pointer;
+
+        header h1 {
+            font-size: 27px;
         }
-        .arrows:hover{
-            color: grey;            
+
+        header p span {
+            font-size: 32px;
         }
+
+        section .product_list {
+            min-width: 99%;
+            /* Set to 1 item per display for mobile (obviously you wouldn't use a carousel on mobile*/
+            margin: 0 12px 0 0;
+        }
+
+        .info,
         .button_block {
-            margin-top: 15px !important;
-            padding-left: 0px !important;
-            display: flex;
-            justify-content: flex-start !important;
-            
-        }
-        .btn_1 {
-            align-items: center;
-            background-color: #000000;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            border-radius: .25rem;
-            box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
-            box-sizing: border-box;
-            color: rgba(255, 255, 255, 1);
-            cursor: pointer;
-            display: inline-flex;
-            font-family: 'Open Sans' , Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            font-weight: 600;
-            justify-content: center;
-            line-height: 20px;
-            margin: 0;
-            min-height: 3rem;
-            padding: calc(.875rem - 1px) calc(1.5rem - 1px);
-            position: relative;
-            text-decoration: none;
-            transition: all 250ms;
-            vertical-align: baseline;
-            width: auto;
+            font-size: 18px;
         }
 
-        .btn_1:hover,
-        .btn_1:focus {
-            border-color: rgba(0, 0, 0, 0.15);
-            box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-            background-color: #1cb5fc;
+        a {
+            padding: 2px 12px;
         }
 
-        .btn_1:hover {
-            transform: translateY(-1px);
-        }
 
-        .btn_1:active {
-            background-color: #F0F0F1;
-            border-color: rgba(0, 0, 0, 0.15);
-            box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-            color: rgba(0, 0, 0, 0.65);
-            transform: translateY(0);
-        }
-        em{
-            font-size: 16px;
-        }
-		.info,
-		.button_block{
-			width: 92%;
-			margin: auto;
-			padding: 6px;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			height: 55px;
-			font-size: 22px;
-			color: #444;
-		}
-
-		@media (max-width: 750px) {
-			.text h1{
-				font-size: 33px;
-			}
-			.text p{
-				width: 92%;
-			}
-			header h1{
-				font-size: 27px;
-			}
-			header p span{
-				font-size: 32px;
-			}
-			section .product_list {
-				min-width: 99%; /* Set to 1 item per display for mobile (obviously you wouldn't use a carousel on mobile*/
-				margin:  0 12px  0 0;
-			}
-			.info, .button_block{
-				font-size: 18px;
-			}
-			a{
-				padding: 2px 12px;
-			}
-		}
-
-        
+    }
