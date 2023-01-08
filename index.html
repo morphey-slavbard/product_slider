@@ -1,11 +1,3 @@
-﻿<html lang="en">
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" type="text/css" href="/Users/dwebster/Projects/products_Rec_Slider/Product_Slider/style.css">-->
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
-</head>
 <style>
     @charset "utf-8";
 
@@ -39,7 +31,7 @@
     }
 
     section {
-        width: 98%;
+        width: 99%;
         height: 620px;
         margin: auto;
         display: flex;
@@ -52,7 +44,7 @@
     }
 
     section .product_list {
-        min-width: 32.5%;
+        min-width: 32.01%;
         /*controlls how many cards are displayed on a screen*/
         height: 92%;
         background: whitesmoke;
@@ -82,7 +74,6 @@
     }
 
 
-
     .icon_image {
         margin-left: 20px;
         width: 50px;
@@ -108,7 +99,7 @@
         margin-top: 15px !important;
         padding-left: 0px !important;
         display: flex;
-        justify-content: flex-start !important;
+        justify-content: center !important;
 
     }
 
@@ -129,7 +120,7 @@
         line-height: 20px;
         margin: 0;
         min-height: 3rem;
-        padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+        padding: 14px 18px 14px 18px;
         position: relative;
         text-decoration: none;
         transition: all 250ms;
@@ -142,6 +133,7 @@
         border-color: rgba(0, 0, 0, 0.15);
         box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
         background-color: #1cb5fc;
+        color: white;
     }
 
     .btn_1:hover {
@@ -158,6 +150,8 @@
 
     em {
         font-size: 16px;
+        padding-top: 5px;
+
     }
 
     .info,
@@ -166,12 +160,22 @@
         margin: auto;
         padding: 6px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         height: 55px;
         font-size: 22px;
         color: #444;
     }
+
+    .info .info_container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
 
     @media (max-width: 750px) {
         .text h1 {
@@ -204,120 +208,115 @@
         a {
             padding: 2px 12px;
         }
+
+
     }
 </style>
+<main>
+    <header>
+        <h1>We Recommend</h1>
 
-<body>
-    <main>
-        
-        <header>
-            <h1>We Recommend</h1>
-
-        </header>
-        <section>
-            <div class="product_list">
-                <picture>
-                    <img src="https://ucarecdn.com/97421f7c-e668-4b1a-a60f-8235d3847b97/product_1.jpeg" alt="">
-                </picture>
-                <div class="info">
-                    <p>
-                        <b>Aloha Shirt</b><br>
-                        <em>From the beach to the club</em>
-                    </p>
+    </header>
+    <section>
+        <div class="product_list">
+            <picture>
+                <img src="https://demostore.x-cart.com/images/product/shoes_1_1.jpg" alt="">
+            </picture>
+            <div class="info">
+                <div class="info_container">
+                    <b>Signature 45 Boots</b>
+                    <em>A classic for all seasons</em><br>
                     <samp>£55.00</samp>
                 </div>
-                <div class="button_block">
-                    <a class="btn_1" href="#">Add to cart</a>
-                    <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
-                        onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
-                        ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
-                        ; alt="" /></a>
-                </div>
             </div>
-            <div class="product_list">
-                <picture>
-                    <img src="https://ucarecdn.com/948feb5e-f0f7-4dcd-915a-73ef8b7cf4b6/product_2.jpeg" alt="">
-                </picture>
-                <div class="info">
-                    <p>
-                        <b>Tyson Tracksuit</b><br>
-                        <em>Ideal for work or play, comfort on the move.</em>
-                    </p>
+            <div class="button_block">
+                <a class="btn_1" href="#">Add to cart</a>
+                <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
+                    onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
+                    ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'" ;
+                    alt="" /></a>
+            </div>
+        </div>
+        <div class="product_list">
+            <picture>
+                <img src="https://demostore.x-cart.com/images/product/shoes_6_2.jpg" alt="">
+            </picture>
+            <div class="info">
+                <div class="info_container">
+                    <b>HighTop Victory Trainers</b>
+                    <em>From the court to the bar</em><br>
                     <samp>£145.00</samp>
                 </div>
-                <div class="button_block">
-                    <a class="btn_1" href="#">Add to cart</a>
-                    <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
-                        onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
-                        ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
-                        alt="" /></a>
+            </div>
+            <div class="button_block">
+                <a class="btn_1" href="#">Add to cart</a>
+                <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
+                    onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
+                    ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
+                    alt="" /></a>
+            </div>
+        </div>
+        <div class="product_list">
+            <picture>
+                <img src="https://demostore.x-cart.com/images/product/shoes_12.jpg" alt="">
+            </picture>
+            <div class="info">
+                <div class="info_container">
+                    <b>Three Stripes Knitted Trainer</b>
+                    <em>Stylish exercise Trainer</em><br>
+                    <samp>£155.00</samp>
                 </div>
             </div>
-            <div class="product_list">
-                <picture>
-                    <img src="https://ucarecdn.com/1bba61f3-0b79-4a48-a485-193ed1c832cc/product_3.jpeg" alt="">
-                </picture>
-                <div class="info">
-                    <p>
-                        <b>Idea Tee</b><br>
-                        <em>Have you next idea in style.</em>
-                    </p>
-                    <samp>£55.00</samp>
-                </div>
-                <div class="button_block">
-                    <a class="btn_1" href="#">Add to cart</a>
-                    <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
-                        onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
-                        ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
-                        alt="" /></a>
-                </div>
+            <div class="button_block">
+                <a class="btn_1" href="#">Add to cart</a>
+                <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
+                    onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
+                    ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
+                    alt="" /></a>
             </div>
-            <div class="product_list">
-                <picture>
-                    <img src="https://ucarecdn.com/f165d474-b4e4-431b-8b7f-48c66bf8a68a/product_4.jpeg" alt="">
-                </picture>
-                <div class="info">
-                    <p>
-                        <b>Cali T-Shirt</b><br>
-                        <em>Lazy like a Cali Sunday</em>
-                    </p>
+        </div>
+        <div class="product_list">
+            <picture>
+                <img src="https://demostore.x-cart.com/images/product/shoes_7.jpg" alt="">
+            </picture>
+            <div class="info">
+                <div class="info_container">
+                    <b>The Star HighTop</b>
+                    <em>Old Skool Classic for the modern day</em><br>
                     <samp>£95.00</samp>
                 </div>
-                <div class="button_block">
-                    <a class="btn_1" href="#">Add to cart</a>
-                    <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
-                        onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
-                        ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
-                        alt="" /></a>
-                </div>
             </div>
-            <div class="product_list">
-                <picture>
-                    <img src="https://ucarecdn.com/5807d9fd-1f0d-4ba0-a3b7-6e8958e01eac/product_5.jpeg" alt="">
-                </picture>
-                <div class="info">
-                    <p>
-                        <b>Kind is Cool</b><br>
-                        <em>Only positive vibes here</em>
-                    </p>
+            <div class="button_block">
+                <a class="btn_1" href="#">Add to cart</a>
+                <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
+                    onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
+                    ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
+                    alt="" /></a>
+            </div>
+        </div>
+        <div class="product_list">
+            <picture>
+                <img src="https://demostore.x-cart.com/images/product/shoes_16.jpg" alt="">
+            </picture>
+            <div class="info">
+                <div class="info_container">
+                    <b>The Everyday Trainer</b>
+                    <em>City, Work, or Beach</em><br>
                     <samp>£55.00</samp>
                 </div>
-                <div class="button_block">
-                    <a class="btn_1" href="#">Add to cart</a>
-                    <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
-                        onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
-                        ; onmouseout="this.src='https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png'"
-                        alt="" /></a>
-                </div>
             </div>
-
-        </section>
-        <div class="arrows_container">
-            <div class="arrows">&#8592;</div>
-            <div class="arrows">&#8594;</div>
+            <div class="button_block">
+                <a class="btn_1" href="#">Add to cart</a>
+                <img class="icon_image" src="https://ucarecdn.com/39414d51-add3-4f36-946e-0e70a9dee252/add_icon.png"
+                    onmouseover="this.src='https://ucarecdn.com/9303035b-57f2-473c-bdd5-9805e73932a9/add_icon_blue.png'"
+                    ; onmouseout="this.src=''" alt="" /></a>
+            </div>
         </div>
-    </main>
-</body>
 
-</html>
-<script type="text/javascript" src="https://raw.githubusercontent.com/morphey-slavbard/product_slider/main/main.js"></script>
+    </section>
+    <div class="arrows_container">
+        <div class="arrows">&#8592;</div>
+        <div class="arrows">&#8594;</div>
+    </div>
+</main>
+<script src="https://morphey-slavbard.github.io/product_slider/main.js"></script>
