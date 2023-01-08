@@ -12,17 +12,17 @@
 img folder contains some files that are referenced, not massively important.
 
 **Steps**
-1. Open Index.html and click the copy icon in the top right 
-2. Go to https://demostore.x-cart.com/fashion/clothing/oversized-hoodie-in-grey ( I am used Chrome for this test)
-3. right click just above the producrt details menu on class = product-details-tabs
+1. Open Index.html and click the copy icon in the top right. ( Looks like two overlapping pages) 
+2. Go to https://demostore.x-cart.com/fashion/clothing/oversized-hoodie-in-grey ( I used Google Chrome for this test)
+3. Right click just above the producrt details menu on class = product-details-tabs
 4. click inspect
 5. right click on class="product-details-tabs"
 6. Click Edit as HTML
-7. Hit Enter twice
-8. Paste copied HTML from index.html and click outside of the block ( The html should now appear)
+7. Hit Enter twice and the move the curser up two spots
+8. Paste copied HTML from index.html and click outside of the block ( The html should now appear on the page above)
 9. Go to main.js and copy the content
 10. Go back to the inspect view and click on the console
-11. paste in the JS and hit enter.
+11. paste in the content from main.js and hit enter.
 
 You should now be able to test and use the product recommendation block.
 
