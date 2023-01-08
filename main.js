@@ -7,8 +7,8 @@ let arrow = document.getElementsByClassName('arrows');
     // mobile_view	
     let mob_view = window.matchMedia("(max-width: 750px)");
     if (mob_view.matches) {
-        cardDisplay = 100.04; // see above but optimized for mobile
-        maxCardDisplayed = 402; // original + 4 to be shown adjust per 100 as you need. (Set to 2 as the slider worked better without round numbers)
+        cardDisplay = 100.07; // see above but optimized for mobile
+        maxCardDisplayed = 500; // original + 4 to be shown adjust per 100 as you need. (Set to 2 as the slider worked better without round numbers)
     }
 
     let right_arrow = () => {
