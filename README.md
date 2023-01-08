@@ -4,9 +4,9 @@
 
 **Important files in  Git branch**
 
-README.md - Instructions, please read
+README.md - Instructions, please read.
 Index.html -  Full HTML, CSS and Script tag to the JS that controls the carousel.
-Main.js - raw JS file for controls
+Main.js - raw JS file for controls.
 Style.css - final form of the css file.
 
 img folder contains some files that are referenced, not massively important.
