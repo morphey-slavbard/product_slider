@@ -38,6 +38,8 @@ Things considered launch a one file implementation
 **Further understanding**
 Built using vanilla JS and Html, no owl carousel or bootstrap used in the making of the carousel.
 
+There is space between location of slider and payment information, this is because there is a iframe for paypal, that is not currently working.
+
 Options for Testing and experiemntation
 
 * Location of carousel buttons
