@@ -48,7 +48,7 @@ Options for Testing and experiemntation
 **Future work**
 
 * Dynamically pulling in content from a json file.
-* Some slight tweeks around how many products appear in mobile version
+* Some slight tweeks around how many products appear in mobile version (Moving from desktop to mobile rquires a reload - During demo have two tabs showing mobile and desktop if required.)
 * hover over add to cart button on image
 
 
