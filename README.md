@@ -28,11 +28,9 @@ You should now be able to test and use the product recommendation block.
 
 **Points to note**
 
-I was unable to deploy its as one file hence why the JS needs to be added in the console after, using this method seemed like a better option rather than using more complex JS.
-
 Things considered launch a one file implementation
-* Extension using content script but I decided that was out of scope and required to much work
-* Using insertAdjacentHTML() method, but I run out of time to test completely.
+* Extension using content script 
+* Using insertAdjacentHTML() method.
 
 
 **Further understanding**
@@ -50,7 +48,7 @@ Options for Testing and experiemntation
 **Future work**
 
 * Dynamically pulling in content from a json file.
-* Some slight tweeks around how many products appear in mobile version (Moving from desktop to mobile rquires a reload - During demo have two tabs showing mobile and desktop if required.)
+* Some slight tweeks around how many products appear in mobile version (Moving from desktop to mobile requires a reload - During demo have two tabs showing mobile and desktop if required.)
 * hover over add to cart button on image
 
 
